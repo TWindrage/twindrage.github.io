@@ -13,6 +13,7 @@
 
       /* Style the header */
       .header {
+        z-index: 1;
         padding: 80px;
         text-align: center;
         background: linear-gradient(#050c70, white);
@@ -21,6 +22,7 @@
 
       /* Increase the font size of the h1 element */
       .header h1 {
+        z-index: 1;
         font-size: 40px;
       }
 
@@ -55,9 +57,9 @@
       /* Possition */
       div.relative {
         position: relative;
-        left: 40%;
-        top: 0px;
-        z-index: -1;
+        z-index: 2;
+        left: 29%;
+        top: 6px;
       }
 
       body {
@@ -71,14 +73,13 @@
       <a href="https://twindrage.github.io/test/">Our staff</a>
       <a href="#">Link</a>
       <a href="#" class="right">Link</a>
+      <div class="relative">
+        <img src = 'hi.jpg' height = '40px' width = '180px'>
+      </div>
     </div>
     <div class="header">
       <h1>Test website</h1>
       <p>A website created for fun</p>
     </div>
-    <div class="relative">
-      <img src = 'hi.jpg' height = '75px' width = '300px'>
-    </div>
-    
   </body>
 </html>
