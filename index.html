@@ -44,6 +44,11 @@
         padding: 14px 20px;
         text-decoration: none;
       }
+      .navbar img {
+        position: relative;
+        float: left;
+        top: 4px;
+      }
 
       /* Right-aligned link */
       .navbar a.right {
@@ -56,24 +61,21 @@
         color: black;
       }
 
-      /* Possition */
-      div.relative {
-        position: relative;
-        z-index: 2;
-        left: 29%;
-        top: 6px;
+      .content {
+        height: auto;
+        width: auto;
+        padding: 10px;
       }
     </style>
   </head>
   <body>
     <div class="navbar">
-      <a href="https://www.facebook.com/profile.php?id=100054380326648"><img src="Facebook_Shiny_Icon.png" height="20px" width="20px"></a>
+      <img src = "hi.jpg" height = '40px' width = '180px'>
+      <a href="https://www.facebook.com/profile.php?id=100054380326648">Our Facebook page</a>
       <a href="https://twindrage.github.io/test/">Our staff</a>
       <a href="#">Link</a>
       <a href="#" class="right">Link</a>
-      <div class="relative">
-        <img src = "hi.jpg" height = '40px' width = '180px'>
-      </div>
+      
     </div>
     <div class="header">
       <h1>Our Services</h1>
@@ -85,14 +87,22 @@
         Our Services include<br>
       </h1>
       <h2>
-        <ul>Silk Screen Printing</ul>
-        <img src="Placeholder.png" height="400px" width="400px">
-        <ul>Sublimation Printing</ul>
-        <img src="Placeholder.png" height="400px" width="400px">
-        <ul>Embroidery</ul>
-        <img src="Placeholder.png" height="400px" width="400px">
-        <ul>Tabang sa school work😱</ul>
-        <img src="Placeholder.png" height="400px" width="400px">
+        <div class="content">
+          <h4>Silk Screen Printing</h4>
+          <img src="Placeholder.png" height="400px" width="400px">
+        </div>
+        <div class="content">
+          <h4>Sublimation Printing</h4> 
+          <img src="Placeholder.png" height="400px" width="400px">
+        </div>
+        <div class="content">
+          <h4>Embroidery</h4>
+          <img src="Placeholder.png" height="400px" width="400px">
+        </div>
+        <div class="content">
+          <h4>Tabang sa school work😱</h4>
+          <img src="Placeholder.png" height="400px" width="400px">
+        </div>
       </h2>
     </div>
   </body>
